@@ -1,0 +1,30 @@
+{
+  "name": "paroga/roundcube-nonce_login",
+  "type": "roundcube-plugin",
+  "description": "Plugin to allow login via an nonce, created by an api call, to avoid the sharing of credentials when multiple people use the same account.",
+  "version": "1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/paroga/roundcube-nonce_login/",
+  "authors": [
+    {
+      "name": "Patrick Gansterer",
+      "email": "paroga@paroga.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "login",
+    "authentication",
+    "security",
+    "nonce"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://plugins.roundcube.net"
+    }
+  ],
+  "require": {
+    "roundcube/plugin-installer": ">=0.1.6"
+  }
+}
