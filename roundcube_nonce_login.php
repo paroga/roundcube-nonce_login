@@ -8,7 +8,7 @@
  * @version @package_version@
  * @author Patrick Gansterer <paroga@paroga.com>
  */
-class nonce_login extends rcube_plugin
+class roundcube_nonce_login extends rcube_plugin
 {
     // registered tasks for this plugin.
     public $task = 'login';
